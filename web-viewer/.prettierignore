@@ -1,0 +1,23 @@
+# Build outputs
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Generated files
+*.min.js
+*.min.css
+
+# Binary files
+*.gltf
+*.bin
+*.glb
+
+# Package files
+package-lock.json
+yarn.lock
+
+# Cache
+.cache/
+.webpack/ 

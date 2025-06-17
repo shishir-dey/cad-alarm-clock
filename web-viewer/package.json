@@ -1,0 +1,44 @@
+{
+  "name": "cad-alarm-clock",
+  "version": "1.0.0",
+  "description": "Interactive 3D CAD alarm clock model designed in FreeCAD",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development",
+    "deploy": "npm run build && gh-pages -d dist",
+    "clean": "rimraf dist && rimraf node_modules/.cache",
+    "format": "prettier --write \"src/**/*.{js,json,css,html}\" \"public/**/*.{html,css}\" \"*.{js,json,md}\""
+  },
+  "keywords": [
+    "CAD",
+    "FreeCAD",
+    "3D",
+    "alarm-clock",
+    "three.js",
+    "webgl"
+  ],
+  "author": "Shishir Dey",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.177.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "babel-loader": "^10.0.0",
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "homepage": "https://shishir-dey.github.io/cad-alarm-clock"
+}
