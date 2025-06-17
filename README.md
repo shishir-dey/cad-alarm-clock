@@ -1,9 +1,9 @@
-# CAD Alarm Clock
+# Alarm Clock
 
-A 3D modeled alarm clock designed in FreeCAD for CAD learning and prototyping.
+A 3D parametric model of an analog alarm clock designed in FreeCAD for CAD learning and prototyping.
 
 ## Features
-- Complete 3D CAD model of an alarm clock
+- Complete 3D CAD model of an analog alarm clock
 - Designed using FreeCAD (open-source parametric 3D modeler)
 - Suitable for 3D printing or manufacturing reference
 
